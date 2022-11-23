@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;800&display=swap');
+
+body{
+    font-family: 'MuseoModerno', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #0d355c, #fff);
+    margin: auto;
+}
+.login-card {
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 2rem;
+    margin-top: 20px;
+
+}
+.login-card a{
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+.login-card a:hover{
+    text-decoration: underline;
+}
+.login-card-logo{
+    text-align: center;
+}
+.login-card-logo img{
+    width: 150px;
+}
+.login-card-header, login-card-noAccount{
+    text-align: center;
+}
+.login-card-header h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.login-card-header p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.login-card-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.login-card-form .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.login-card-form .form-item-remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-card-noAccount{
+    margin-top: 40px;
+}
+.login-card input{
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: rgba(255, 255, 255, .2);
+    padding: 1rem 4rem;
+    padding-left: calc(1rem * 3.5rem);
+}
+.login-card-form{
+    position: relative;
+}
+.login-card-form .form-item .form-item-icons{
+    position: absolute;
+    top: .82rem;
+    left: 8.4rem;
+}
+.login-card-form .form-item-second .form-item-icons{
+    position: absolute;
+    left: 8.4rem;
+    top: 5.3rem;
+}
+.login-card-form button{
+    background: #2C58AB;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+}
