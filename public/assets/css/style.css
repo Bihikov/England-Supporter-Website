@@ -6,7 +6,6 @@ body{
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #0d355c, #fff);
-    margin: auto;
 }
 .login-card {
     width: 500px;
